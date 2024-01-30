@@ -1,5 +1,6 @@
 function isSameType(value1, value2) {
   //your js code here
+	return typeof value1 === typeof value2;
 	isSameType(1, 3); // true
 isSameType("hey", "hello"); // true
 isSameType(NaN, NaN); // true
